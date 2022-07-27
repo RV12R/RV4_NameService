@@ -1,4 +1,4 @@
-# RV Domain Name Service
+# RV4 Domain Name Service
 
 Currently building on Mumbai Test net using Matics, and Minting them as NFTs
 
