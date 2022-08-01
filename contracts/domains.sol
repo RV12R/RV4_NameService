@@ -79,11 +79,11 @@ contract Domains is ERC721URIStorage {
     uint len = StringUtils.strlen(name);
     require(len > 0);
     if (len == 3) {
-      return 1 * 10**17; // 5 MATIC = 5 000 000 000 000 000 000 (18 decimals). We're going with 0.5 Matic cause the faucets don't give a lot
+      return 1 * 10**18; 
     } else if (len == 4) {
-      return 1 * 10**17; // To charge smaller amounts, reduce the decimals. This is 0.3
+      return 2 * 10**18; 
     } else {
-      return 1 * 10**17;
+      return 1 * 10**18;
     }
   }
 
